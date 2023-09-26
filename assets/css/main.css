@@ -1548,10 +1548,14 @@ body.is-preload #footer {
 }
 
 #oferta_tekst > h3:nth-last-child(odd) {
-    margin: 2.5rem !important;
+    margin: 2.5rem auto 2.5rem auto !important;
 }
 
-#oferta_tekst > p {
+#oferta_tekst > h5 {
+    font-weight: 300;
+    line-height: inherit;
+    letter-spacing: normal;
     margin: 0;
     font-size: inherit;
+    text-transform: inherit;
 }
