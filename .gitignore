@@ -1,0 +1,6 @@
+/assets/sass/
+*.css
+!.min.css
+*.png
+!/assets/images/overlay.png
+/assets/icons/*.png
