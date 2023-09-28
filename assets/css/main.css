@@ -1619,3 +1619,7 @@ body.is-preload #footer {
 #header > a {
     border-width: 0;
 }
+
+em {
+    font-weight: 600;
+}
