@@ -6,9 +6,9 @@
  "scope": "/",
  "start_url": "/",
  "id": "/",
- "name": "Serwis i Monta\u017c Instalacji Grzewczych i Ch\u0142odniczych - Nawroth",
- "description": "Profesjonalny serwis i monta\u017c instalacji grzewczych i ch\u0142odniczych. Zapewniamy kompleksowe us\u0142ugi dla Twojego komfortu.",
- "short_name": "Nawroth.pl",
+ "name": "Serwis i Monta\u017c Instalacji Grzewczych i Ch\u0142odniczych Nawroth",
+ "description": "Profesjonalny serwis i monta\u017c instalacji grzewczych i ch\u0142odniczych. Pompy ciep\u0142a, fotowoltaika, klimatyzacja, ogrzewanie pod\u0142ogowe i wi\u0119cej.",
+ "short_name": "www.nawroth.pl",
  "icons": [
   {
    "src": "\/assets/icons/android-icon-36x36.png",

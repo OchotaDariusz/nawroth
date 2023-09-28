@@ -4,11 +4,33 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/assets/js/main.min.js" />
         <item url="file://$PROJECT_DIR$/assets/js/util.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown-atomics.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown-media.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown-sandbox-sw.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown-sw.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown-ww-atomics.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown-ww-sw.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/debug/partytown.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/partytown-atomics.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/partytown-media.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/partytown-sw.min.js" />
+        <item url="file://$PROJECT_DIR$/assets/js/~partytown/partytown.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/assets/js/main.min.js" />
       <root url="file://$PROJECT_DIR$/assets/js/util.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/partytown.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/partytown-atomics.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/partytown-media.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/partytown-sw.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown-ww-atomics.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown-atomics.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown-sandbox-sw.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown-media.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown-ww-sw.min.js" />
+      <root url="file://$PROJECT_DIR$/~partytown/debug/partytown-sw.min.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
