@@ -280,10 +280,11 @@ hr {
 }
 
 form {
-    margin: 0 0 2rem 0;
+    margin: .5rem 0 2rem 0;
 }
 
 form > :last-child {
+    margin-top: 2rem;
     margin-bottom: 0;
 }
 
@@ -356,7 +357,7 @@ label {
     font-weight: 300;
     letter-spacing: .2rem;
     line-height: 1.5;
-    margin: 0 0 1rem 0;
+    margin: 1.5rem 0 1rem 0;
     text-transform: uppercase;
 }
 
