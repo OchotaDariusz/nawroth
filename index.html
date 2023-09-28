@@ -17,7 +17,7 @@
         gtag('config', 'G-3KS4X90ZEX');
     </script>
     <!-- end of GTAG-->
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -39,12 +39,22 @@
     <meta property="og:url" content="https://www.nawroth.pl"/>
     <meta property="og:locale" content="pl_PL"/>
 
+    <link rel="dns-prefetch" href="//formspree.io" />
+    <link rel="dns-prefetch" href="//www.termsfeed.com" />
+    <link rel="dns-prefetch" href="//region1.google-analytics.com" />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
     <link rel="preload" href="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js" as="script"/>
     <link rel="stylesheet" href="assets/css/main.min.css"/>
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
 
+    <link rel="preconnect" href="https://region1.google-analytics.com" crossorigin/>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 
     <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png"/>
@@ -109,9 +119,9 @@
 
     <!-- Header -->
     <header id="header" aria-hidden="false">
-        <a href="https://www.nawroth.pl" tabindex="1"
+        <a href="https://www.nawroth.pl" tabindex="-1"
            aria-label="Nawroth - Instalacje Grzewcze i Chłodnicze">
-            <div class="logo" role="button" aria-label="logo" tabindex="-1"></div>
+            <div class="logo" role="button" aria-label="logo"></div>
         </a>
         <div class="content">
             <div class="inner">
@@ -124,13 +134,13 @@
         </div>
         <nav aria-label="Menu nawigacyjne">
             <ul role="menubar">
-                <li><a href="#firma" role="menuitem" tabindex="2" aria-haspopup="true" aria-controls="firma"
-                >O nas</a></li>
-                <li><a href="#oferta" role="menuitem" tabindex="3" aria-haspopup="true" aria-controls="oferta"
+                <li role="menuitem" aria-haspopup="true" aria-controls="firma"><a href="#firma">O nas</a>
+                </li>
+                <li role="menuitem" aria-haspopup="true" aria-controls="oferta"><a href="#oferta"
                 >Oferta</a></li>
-                <li><a href="#portfolio" role="menuitem" tabindex="4" aria-haspopup="true" aria-controls="portfolio"
-                >Projekty</a></li>
-                <li><a href="#kontakt" role="menuitem" tabindex="5" aria-haspopup="true" aria-controls="kontakt"
+                <li role="menuitem" aria-haspopup="true" aria-controls="portfolio"><a href="#portfolio">Projekty</a>
+                </li>
+                <li role="menuitem" aria-haspopup="true" aria-controls="kontakt"><a href="#kontakt"
                 >Kontakt</a></li>
             </ul>
         </nav>
@@ -146,7 +156,7 @@
                 <picture>
                     <source type="image/webp" srcset="assets/images/pic01.webp">
                     <img
-                            src="assets/images/pic01.webp" alt="O firmie"/></picture>
+                            src="assets/images/pic01.webp" alt="O firmie" loading="lazy"/></picture>
             </div>
             <p>Twoja wygoda termiczna to nasza <em>główna misja</em>!
                 Nasza firma specjalizuje się w kompleksowym montażu oraz
@@ -177,7 +187,7 @@
                 <picture>
                     <source type="image/webp" srcset="assets/images/pic02.webp">
                     <img
-                            src="assets/images/pic02.webp" alt="Oferta"/></picture>
+                            src="assets/images/pic02.webp" alt="Oferta" loading="lazy"/></picture>
             </div>
             <h4>Usługi</h4>
             <div id="oferta_tekst">
@@ -256,7 +266,7 @@
                 <picture>
                     <source type="image/webp" srcset="assets/images/pic03.webp">
                     <img
-                            src="assets/images/pic03.webp" alt="Realizacje"/></picture>
+                            src="assets/images/pic03.webp" alt="Realizacje" loading="lazy"/></picture>
             </div>
             <p>Naprawy bieżące systemów grzewczych (kotły gazowe, węglowe, olejowe,
                 pompy
@@ -340,7 +350,7 @@
 
 </main>
 
-<div id="bg" aria-label="tło strony"></div>
+<div id="bg"></div>
 
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/browser.min.js"></script>
