@@ -1623,3 +1623,11 @@ body.is-preload #footer {
 em {
     font-weight: 600;
 }
+
+.color-hot {
+    color: darkorange;
+}
+
+.color-cold {
+    color: deepskyblue;
+}
