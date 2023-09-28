@@ -143,28 +143,28 @@
     <!-- Header -->
     <header id="header" aria-hidden="false">
         <a href="https://www.nawroth.pl" tabindex="1"
-           aria-label="Serwis i Montaż Instalacji Grzewczych i Chłodniczych Nawroth">
+           aria-label="Nawroth - Instalacje Grzewcze i Chłodnicze">
             <div class="logo" role="button" aria-label="logo" tabindex="-1"></div>
         </a>
         <div class="content">
             <div class="inner">
                 <a href="https://www.nawroth.pl" tabindex="-1"
-                   aria-label="Serwis i Montaż Instalacji Grzewczych i Chłodniczych Nawroth"><h1>www.nawroth.pl</h1></a>
+                   aria-hidden="true"><h1>www.nawroth.pl</h1></a>
                 <h2>Instalacje <span style="color: darkorange">grzewcze</span> i <span style="color: deepskyblue">chłodnicze</span>
                 </h2>
                 <h3>Serwis / Montaż</h3>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#firma" tabindex="2" aria-haspopup="true" aria-controls="firma"
-                       aria-label="Przycisk do strony o firmie">O nas</a></li>
-                <li><a href="#oferta" tabindex="3" aria-haspopup="true" aria-controls="oferta"
-                       aria-label="Przycisk do oferty">Oferta</a></li>
-                <li><a href="#portfolio" tabindex="4" aria-haspopup="true" aria-controls="portfolio"
-                       aria-label="Przycisk do strony z realizacjami">Projekty</a></li>
-                <li><a href="#kontakt" tabindex="5" aria-haspopup="true" aria-controls="kontakt"
-                       aria-label="Przycisk do kontaktu">Kontakt</a></li>
+        <nav aria-label="Menu nawigacyjne">
+            <ul role="menubar">
+                <li><a href="#firma" role="menuitem" tabindex="2" aria-haspopup="true" aria-controls="firma"
+                >O nas</a></li>
+                <li><a href="#oferta" role="menuitem" tabindex="3" aria-haspopup="true" aria-controls="oferta"
+                >Oferta</a></li>
+                <li><a href="#portfolio" role="menuitem" tabindex="4" aria-haspopup="true" aria-controls="portfolio"
+                >Projekty</a></li>
+                <li><a href="#kontakt" role="menuitem" tabindex="5" aria-haspopup="true" aria-controls="kontakt"
+                >Kontakt</a></li>
             </ul>
         </nav>
     </header>
@@ -175,19 +175,23 @@
         <!-- Start -->
         <article id="firma" aria-hidden="true">
             <h2 class="major">O nas</h2>
-            <span class="image main"><picture><source type="image/webp" srcset="assets/images/pic01.webp"><img
-                    src="assets/images/pic01.webp" alt="o firmie"/></picture></span>
-            <p aria-labelledby="firma">Twoja wygoda termiczna to nasza główna misja!
+            <div class="image main">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/pic01.webp">
+                    <img
+                            src="assets/images/pic01.webp" alt="O firmie"/></picture>
+            </div>
+            <p>Twoja wygoda termiczna to nasza główna misja!
                 Nasza firma specjalizuje się w kompleksowym montażu oraz
                 serwisie instalacji grzewczych i chłodniczych, w tym pompy ciepła, fotowoltaikę, klimatyzację, panele
                 fotowoltaiczne, ogrzewanie podłogowe i wiele innych.</p>
-            <p aria-labelledby="firma">Dzięki naszemu bogatemu doświadczeniu i zaawansowanej technologii zapewniamy
+            <p>Dzięki naszemu bogatemu doświadczeniu i zaawansowanej technologii zapewniamy
                 efektywne rozwiązania
                 dostosowane do Twoich unikalnych potrzeb.
                 Niezależnie od tego, czy potrzebujesz montażu nowej instalacji
                 czy konserwacji istniejącej, jesteśmy gotowi zapewnić Ci profesjonalną obsługę.</p>
-            <p aria-labelledby="firma"><a href="#kontakt" tabindex="6" aria-label="Przycisk do kontaktu"><strong>Skontaktuj
-                się z nami</strong></a> już dzisiaj, aby cieszyć się idealną
+            <p><strong><a href="#kontakt" aria-label="Skontaktuj się z nami">Skontaktuj
+                się z nami</a></strong> już dzisiaj, aby cieszyć się idealną
                 temperaturą w Twoim domu lub firmie.
                 Nasze usługi obejmują również serwis pomp ciepła, instalacje
                 wentylacji, montaż systemów wentylacyjnych, i wiele innych, aby zapewnić Ci pełną kontrolę nad komfortem
@@ -198,22 +202,29 @@
         <!-- Work -->
         <article id="oferta" aria-hidden="true">
             <h2 class="major">Oferta</h2>
-            <span class="image main"><picture><source type="image/webp" srcset="assets/images/pic02.webp"><img
-                    src="assets/images/pic02.webp" alt="oferta"/></picture></span>
+            <div class="image main">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/pic02.webp">
+                    <img
+                            src="assets/images/pic02.webp" alt="Oferta"/></picture>
+            </div>
             <h4>Usługi</h4>
-            <div id="oferta_tekst" aria-labelledby="oferta">
+            <div id="oferta_tekst">
                 <h3>Instalacje grzewcze</h3>
-                <h5>• Montaż kotłów gazowych, olejowych, na pellet, pomp ciepła</h5>
-                <h5>• Montaż instalacji centralnego ogrzewania, ciepłej wody użytkowej</h5>
-                <h5>• Montaż instalacji solarnych</h5>
-                <h5>• Serwis instalacji grzewczych</h5>
-                <h5>• Montaż kotłów gazowych, olejowych, na pellet, pomp ciepła</h5>
+                <ul>
+                    <li>Montaż kotłów gazowych, olejowych, na pellet, pomp ciepła</li>
+                    <li>Montaż instalacji centralnego ogrzewania, ciepłej wody użytkowej</li>
+                    <li>Montaż instalacji solarnych</li>
+                    <li>Serwis instalacji grzewczych</li>
+                </ul>
 
                 <h3>Instalacje chłodnicze</h3>
-                <h5>• Montaż systemów chłodzenia i klimatyzacji</h5>
-                <h5>• Serwis systemów chłodnictwa i klimatyzacji</h5>
+                <ul>
+                    <li>Montaż systemów chłodzenia i klimatyzacji</li>
+                    <li>Serwis systemów chłodnictwa i klimatyzacji</li>
+                </ul>
             </div>
-            <div class="table-wrapper" aria-labelledby="oferta">
+            <div class="table-wrapper">
                 <table>
                     <thead>
                     <tr>
@@ -259,7 +270,7 @@
                     </tr>
                     <tr>
                         <td colspan="2"></td>
-                        <td><h4><a href="#kontakt" aria-label="Przycisk do kontaktu" tabindex="7">Zadaj pytanie</a></h4>
+                        <td><h4><a href="#kontakt" aria-label="Zadaj pytanie">Zadaj pytanie</a></h4>
                         </td>
                     </tr>
                     </tfoot>
@@ -272,17 +283,17 @@
             <h2 class="major">Realizacje</h2>
             <span class="image main"><picture><source type="image/webp" srcset="assets/images/pic03.webp"><img
                     src="assets/images/pic03.webp" alt="zrealizowane projekty"/></picture></span>
-            <p aria-labelledby="portfolio">Naprawy bieżące systemów grzewczych (kotły gazowe, węglowe, olejowe, pompy
+            <p>Naprawy bieżące systemów grzewczych (kotły gazowe, węglowe, olejowe, pompy
                 ciepła, kotły elektryczne),
                 przeglądy okresowe miesięczne, przez sezonem chłodniczym oraz grzewczym (klimatyzację, pompy ciepła,
                 kotły), realizacja instalacji elektrycznych, grzewczych, sanitarnych.
                 Rekuperacja i wentylacja.</p>
-            <div class="table-wrapper" aria-labelledby="portfolio">
+            <div class="table-wrapper">
                 <table>
                     <tfoot>
                     <tr>
                         <td colspan="2"></td>
-                        <td><h4><a href="#kontakt" aria-label="Przycisk do kontaktu" tabindex="8">Zadaj pytanie</a></h4>
+                        <td><h4><a href="#kontakt" aria-label="Przycisk do kontaktu">Zadaj pytanie</a></h4>
                         </td>
                     </tr>
                     </tfoot>
@@ -293,7 +304,7 @@
         <!-- Contact -->
         <article id="kontakt" aria-hidden="true">
             <h2 class="major">Kontakt</h2>
-            <div class="table-wrapper" aria-labelledby="kontakt">
+            <div class="table-wrapper">
                 <table class="alt">
                     <thead>
                     <tr>
@@ -318,18 +329,18 @@
             >
                 <label for="email">
                     Twój email:</label>
-                <input id="email" type="email" name="email" tabindex="9" required>
+                <input id="email" type="email" name="email" required>
                 <label for="name">
                     Twoje imię: </label>
-                <input id="name" type="text" name="name" tabindex="10" required>
+                <input id="name" type="text" name="name" required>
 
                 <label for="message">
                     Napisz wiadomość:</label>
-                <textarea id="message" name="message" tabindex="11" required></textarea>
+                <textarea id="message" name="message" required></textarea>
 
-                <input name="subject" type="hidden" aria-hidden="true" tabindex="-1"
+                <input name="subject" type="hidden"
                        value="Nowe zapytanie od {{ name }} | {{ email }}"/>
-                <button type="submit" tabindex="12">Wyślij zapytanie</button>
+                <button type="submit">Wyślij zapytanie</button>
             </form>
         </article>
 
@@ -337,8 +348,8 @@
 
     <!-- Footer -->
     <footer id="footer" aria-hidden="false">
-        <p class="copyright" aria-labelledby="footer">2023 &copy; <a href="https://www.nawroth.pl" tabindex="-1"
-                                                                     aria-label="Serwis i Montaż Instalacji Grzewczych i Chłodniczych Nawroth">WWW.NAWROTH.PL</a>
+        <p class="copyright">2023 &copy; <a href="https://www.nawroth.pl" tabindex="-1"
+                                            aria-label="Nawroth - Instalacje Grzewcze i Chłodnicze">WWW.NAWROTH.PL</a>
         </p>
     </footer>
 
