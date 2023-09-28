@@ -1615,3 +1615,7 @@ body.is-preload #footer {
 .custom-table td:last-child {
     text-align: right;
 }
+
+#header > a {
+    border-width: 0;
+}
