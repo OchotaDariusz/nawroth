@@ -1187,10 +1187,11 @@ body.is-preload #bg:before {
     border-color: #dadada;
     border-radius: 100%;
     border-width: 11px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(../images/logo.webp);
     transition: border-width .25s;
+}
+
+#header .logo img {
+    width: 100%;
 }
 
 #header .logo .icon:before {
