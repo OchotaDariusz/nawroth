@@ -3674,3 +3674,25 @@ body.is-preload #header:after {
 	}
 
 }
+
+.logo {
+	max-width: 55% !important;
+	width: 55% !important;
+}
+
+@media screen and (max-width: 980px) {
+
+	.logo {
+		max-width: 85% !important;
+		width: 85% !important;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.logo {
+		max-width: calc(85% - 3em);
+	}
+
+}
