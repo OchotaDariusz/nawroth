@@ -2277,7 +2277,7 @@ input[type="radio"] {
 	display: block;
 	float: left;
 	margin-right: -2em;
-	opacity: 0;
+	opacity: 0.01;
 	width: 1em;
 	z-index: -1;
 }
@@ -3226,7 +3226,7 @@ button:disabled,
 	content: '';
 	height: 100%;
 	left: 0;
-	opacity: 0;
+	opacity: 0.01;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -3237,7 +3237,7 @@ body.is-preload #header .inner {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
-	opacity: 0;
+	opacity: 0.01;
 }
 
 body.is-preload #header .inner .actions {
@@ -3245,7 +3245,7 @@ body.is-preload #header .inner .actions {
 	-webkit-transform: translateY(30em);
 	-ms-transform: translateY(30em);
 	transform: translateY(30em);
-	opacity: 0;
+	opacity: 0.01;
 }
 
 body.is-preload #header:after {
