@@ -1,5 +1,5 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+/* @import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic"); */
 
 /*
 	Photon by HTML5 UP
@@ -2504,21 +2504,25 @@ input[type="radio"]+label:before {
 .image.left,
 .image.right {
 	max-width: 40%;
+	height: auto;
 }
 
 .image.left img,
 .image.right img {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 .image.fit {
 	display: block;
 	margin: 0 0 2em 0;
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 .image.fit img {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 /* List */
@@ -2954,7 +2958,7 @@ button:disabled,
 	background-color: #333;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed, fixed;
-	background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+	background-image: url("images/overlay1.png"), url("../../images/header.webp");
 	background-size: auto, cover;
 }
 
@@ -3676,15 +3680,15 @@ body.is-preload #header:after {
 }
 
 .logo {
-	max-width: 55% !important;
-	width: 55% !important;
+	max-width: 55%;
+	height: auto;
 }
 
 @media screen and (max-width: 980px) {
 
 	.logo {
-		max-width: 85% !important;
-		width: 85% !important;
+		max-width: 85%;
+		height: auto;
 	}
 
 }
@@ -3693,6 +3697,7 @@ body.is-preload #header:after {
 
 	.logo {
 		max-width: calc(85% - 3em);
+		height: auto;
 	}
 
 }
