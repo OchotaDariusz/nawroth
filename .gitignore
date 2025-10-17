@@ -1,0 +1,65 @@
+# Generated .gitignore patterns
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vs/
+
+# Dependencies
+node_modules/
+vendor/
+packages/
+
+# Documentation
+docs/_build/
+*.pdf
+*.docx
+*.pptx
+
+# Environment
+.env
+.env.*
+!.env.example
+.envrc
+.environment
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup Files
+*.bak
+*.backup
+*.orig
+*.swp
+*.swo
+
+# Cache Files
+*.cache
+.cache/
+cache/
+**/cache/
+.npm/
+.yarn/
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+~*
+*~
+
+# Log Files
+*.log
+*.log.*
+logs/
+log/
+/logs
+/log
