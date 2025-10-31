@@ -1,4 +1,37 @@
 User-agent: *
+Allow: /
+Disallow: /.git/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /.git/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /.git/
+
+User-agent: Bytespider
+Allow: /
+Disallow: /.git/
+
+User-agent: CCBot
+Allow: /
+Disallow: /.git/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /.git/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /.git/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /.git/
+
+User-agent: meta-externalagent
+Allow: /
 Disallow: /.git/
 
 Sitemap: https://nawroth.com.pl/sitemap.xml
