@@ -1,37 +1,46 @@
 User-agent: *
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: Amazonbot
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: Applebot-Extended
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: Bytespider
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: CCBot
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: Google-Extended
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: GPTBot
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 User-agent: meta-externalagent
 Allow: /
 Disallow: /.git/
+Disallow: /cdn-cgi/
 
 Sitemap: https://nawroth.com.pl/sitemap.xml
