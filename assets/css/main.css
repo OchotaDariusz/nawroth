@@ -173,7 +173,7 @@ textarea {
 }
 
 .text-bold {
-	font-weight: bold;
+	font-weight: 400;
 }
 
 
@@ -3704,4 +3704,34 @@ body.is-preload #header:after {
 		height: auto;
 	}
 
+}
+
+.sticky-call {
+	display: none;
+}
+
+@media screen and (max-width: 736px) {
+	.sticky-call {
+		display: flex;
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		background-color: #2ecc71;
+		/* Zielony kolor zachęcający */
+		color: white !important;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+		z-index: 1000;
+		font-size: 24px;
+		text-decoration: none;
+		border: 2px solid white;
+	}
+
+	.sticky-call:hover {
+		background-color: #27ae60;
+	}
 }
